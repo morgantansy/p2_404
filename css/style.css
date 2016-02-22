@@ -1,0 +1,61 @@
+li {
+  
+  list-style: none;
+  display: inline-block;
+}
+
+
+
+/* Link & visited */
+
+a:link,
+a:visited {
+  font-family: 'Exo', sans-serif;
+   border-left: 8px solid #ffff;
+  color: #141414;
+  display: block;
+  width: 200px; 
+  height: 32px;
+  text-align: center;
+ line-height: 32px;
+  text-decoration: none;
+
+ 
+}
+
+
+
+/*Focus, Hover, Active State */
+
+a:focus,
+a:active,
+a:hover {
+  background: #CFCCC9
+;
+  border-left: 8px solid rgba(252, 208, 0, 0.57);
+  color: black;
+}
+
+
+/* h1 */
+
+h1,h2, h3 {
+  font-family: 'Exo', sans-serif;
+  text-align: center;
+}
+
+footer {
+  background: black;
+}
+
+div.break{
+  height:100px;
+  background: #000;
+}
+
+
+h3 span {
+  background: black;
+  color: white;
+  
+}
